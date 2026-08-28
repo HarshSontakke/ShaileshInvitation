@@ -256,8 +256,7 @@ export const invitationData = {
       endingText: "आशीर्वाद आहेत."
     },
     family: "— सोनटक्के परिवार",
-    brand: "Crafted by INVI DIGITALS",
-    brandUrl: "https://www.instagram.com/invi.digitals",
+    chant: "ॐ गं गणपतये नमः",
     assets: {
       divider: "divider2",
       diya: "diva2",

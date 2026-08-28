@@ -1846,6 +1846,16 @@ to {
   font-weight:600;
   letter-spacing:2px;
   opacity:1!important}
+.footer-chant {
+  color:#5b2607;
+  font-family:'Yatra One','Noto Serif Devanagari',serif;
+  font-size:clamp(1.1rem, 3.5vw, 1.4rem);
+  font-weight:600;
+  letter-spacing:1.5px;
+  margin-top:10px;
+  margin-bottom:15px;
+  text-shadow:0 1px 4px rgba(255,255,255,.3);
+  text-align:center}
 .footer-transition {
   height:100px;
   background:linear-gradient(180deg,transparent,rgba(229,168,79,.18),rgba(229,168,79,.45))}

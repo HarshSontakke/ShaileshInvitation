@@ -5,7 +5,7 @@ import { AssetImage, AssetDivider } from './AssetImage';
 
 export function Footer() {
   const { footer } = invitationData;
-  const { assets, brand, brandUrl, family, quote } = footer;
+  const { assets, chant, family, quote } = footer;
   const revealRef = useScrollReveal();
 
   return (
@@ -24,15 +24,8 @@ export function Footer() {
 
       <div className="footer-family scroll-reveal-child">{family}</div>
 
-      <div className="footer-brand scroll-reveal-child">
-        <a
-          href={brandUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: 'inherit', textDecoration: 'none' }}
-        >
-          {brand}
-        </a>
+      <div className="footer-chant scroll-reveal-child">
+        {chant}
       </div>
     </footer>
   );
