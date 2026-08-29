@@ -11,7 +11,7 @@ export const invitationData = {
     subtitle: "आपणास सस्नेह निमंत्रण !",
     invitation: {
       tag: "॥ सप्रेम निमंत्रक ॥",
-      familyName: "सोनटक्के परिवार",
+      familyName: "शैलेश व संपूर्ण परिवार",
       message: ["आपण व आपल्या परिवारास", "सस्नेह निमंत्रण !"]
     },
     assets: {
@@ -26,7 +26,7 @@ export const invitationData = {
 
   // Family / Hosts Section
   family: {
-    sectionTitle: "सोनटक्के परिवार",
+    sectionTitle: "शैलेश व संपूर्ण परिवार",
     tag: "॥ निमंत्रक ॥",
     subtitle: "गणरायाच्या आगमनाच्या या मंगल क्षणी आपण सर्वांनी उपस्थित राहून उत्सवाची शोभा वाढवावी.",
     bottomText: "गणरायाच्या आगमन सोहळ्यास आपली उपस्थिती हीच आमच्यासाठी आशीर्वाद असेल.",
@@ -222,7 +222,7 @@ export const invitationData = {
       secondLine: "आमच्यासाठी बाप्पांचे खरे",
       endingText: "आशीर्वाद आहेत."
     },
-    family: "— सोनटक्के परिवार",
+    family: "— शैलेश व संपूर्ण परिवार",
     chant: "ॐ गं गणपतये नमः",
     assets: {
       divider: "divider2",
