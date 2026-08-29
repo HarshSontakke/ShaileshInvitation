@@ -516,13 +516,16 @@ body{font-family:"Noto Serif Devanagari",serif;background-color:var(--temple-bas
   font-weight:700;
   letter-spacing:0.5px}
 .title {
-  font-family:Yatra One,serif;
-  font-size:clamp(40px,15.2vw,90px);
-  line-height:1.1;
+  font-family:"Tiro Devanagari Marathi","Rozha One","Noto Serif Devanagari",serif;
+  font-size:clamp(38px,14.5vw,86px);
+  font-weight:700;
+  line-height:1.15;
   color:#4A1804;
   text-align:center;
   margin-bottom:clamp(5px,1.5svh,15px);
-  text-shadow:0 1px 1px rgba(255,255,255,.6)}
+  text-shadow:0 1px 1px rgba(255,255,255,.6);
+  font-feature-settings:"liga" 1,"dlig" 1,"half" 1,"akhn" 1;
+  -webkit-font-smoothing:antialiased}
 .subtitle {
   font-size:clamp(12px,4vw,20px);
   font-weight:700;
