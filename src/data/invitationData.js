@@ -44,22 +44,22 @@ export const invitationData = {
     },
     familyMembers: [
       {
-        id: "pravin-sontakke",
-        name: "श्री. प्रवीण सोनटक्के",
+        id: "family-member-1",
+        name: "",
         relation: "",
         image: "family1",
         displayOrder: 1
       },
       {
-        id: "anjali-sontakke",
-        name: "सौ. अंजली सोनटक्के",
+        id: "family-member-2",
+        name: "",
         relation: "",
         image: "family2",
         displayOrder: 2
       },
       {
-        id: "harsh-sontakke",
-        name: "चि. हर्ष सोनटक्के",
+        id: "family-member-3",
+        name: "",
         relation: "",
         image: "family3",
         displayOrder: 3

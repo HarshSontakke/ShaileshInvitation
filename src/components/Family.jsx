@@ -117,11 +117,13 @@ export function Family() {
                   className="member-img"
                   alt={member.name}
                 />
-                <div className="member-name">
-                  <AssetImage assetKey={assets.lotus} alt="" />
-                  <span>{member.name}</span>
-                  <AssetImage assetKey={assets.lotus} alt="" />
-                </div>
+                {member.name ? (
+                  <div className="member-name">
+                    <AssetImage assetKey={assets.lotus} alt="" />
+                    <span>{member.name}</span>
+                    <AssetImage assetKey={assets.lotus} alt="" />
+                  </div>
+                ) : null}
               </div>
             );
           })}
