@@ -783,6 +783,38 @@ to {
   max-width:390px}
 .family-card.landscape .member-img {
   aspect-ratio:1.25}
+.card-garland {
+  position:absolute;
+  top:-12px;
+  width:72px;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,.35));
+  z-index:6;
+  pointer-events:none;
+  transition:transform .4s ease}
+.card-garland.left {
+  left:-12px;
+  transform:rotate(-6deg)}
+.card-garland.right {
+  right:-12px;
+  transform:scaleX(-1) rotate(-6deg)}
+.family-card.active .card-garland.left {
+  animation:garlandLeftSway 4s ease-in-out infinite alternate}
+.family-card.active .card-garland.right {
+  animation:garlandRightSway 4s ease-in-out infinite alternate}
+@keyframes garlandLeftSway {
+  0% { transform:rotate(-6deg) translateY(0); }
+  100% { transform:rotate(-2deg) translateY(-2px); }
+}
+@keyframes garlandRightSway {
+  0% { transform:scaleX(-1) rotate(-6deg) translateY(0); }
+  100% { transform:scaleX(-1) rotate(-2deg) translateY(-2px); }
+}
+.family-card-inner {
+  overflow:hidden;
+  border-radius:18px;
+  box-shadow:0 4px 14px rgba(0,0,0,.15);
+  border:1px solid rgba(168,103,27,.25);
+  background:#f4dfbe}
 .member-img {
   width:100%;
   aspect-ratio:3/4;

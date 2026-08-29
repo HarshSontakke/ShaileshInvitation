@@ -110,6 +110,8 @@ export function Family() {
 
             return (
               <div className={cardClassName} key={member.id}>
+                <AssetImage assetKey={assets.cardFlower} className="card-garland left" alt="" />
+                <AssetImage assetKey={assets.cardFlower} className="card-garland right" alt="" />
                 <div className="family-card-inner">
                   <AssetImage
                     assetKey={member.image}
