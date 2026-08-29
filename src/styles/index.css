@@ -627,11 +627,15 @@ to {
 .seal-text {
   display:block;
   color:#5b2607;
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1rem;
   margin-bottom:28px}
 .seal-family-name {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(2.1rem,8vw,3rem);
   color:#5b2607;
   margin-bottom:28px;
@@ -732,7 +736,9 @@ to {
   margin-bottom:0}
 .family-heading {
   color:#4a1f06;
-  font-family:Yatra One,serif;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   text-shadow:0 1px 0 rgba(255,255,255,.35);
   font-size:clamp(1rem,9vw,3rem);
   line-height:1.2;
@@ -786,7 +792,9 @@ to {
 .member-name img {
   width:24px}
 .member-name span {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1.5rem;
   font-weight:600;
   color:#3e1602;
@@ -949,7 +957,9 @@ to {
   color:#b56a2b;
   margin:25px 0 12px}
 .utsav-heading {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(2.6rem,9vw,4rem);
   color:#5b2607;
   margin-bottom:20px}
@@ -1082,7 +1092,9 @@ to {
   border-radius:22px;
   background:linear-gradient(180deg,#5b2607,#6b2a0c,#3e1605);
   color:#f6d58a;
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(1.5rem,4vw,1.4rem);
   display:flex;
   align-items:center;
@@ -1144,7 +1156,9 @@ to {
   position:relative;
   background:linear-gradient(180deg,#f7d57b,#e6ba57);
   color:#5b2607;
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1.05rem;
   line-height:1.6;
   border-radius:999px;
@@ -1239,7 +1253,9 @@ to {
   transform:rotate(90deg) scale(1.1);
   color:#5b2607}
 .modal-title {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   color:#5b2607;
   font-size:2rem;
   line-height:1.2;
@@ -1374,7 +1390,9 @@ to {
   display:block;
   margin:0 auto 22px}
 .location-heading {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(2.4rem,8vw,3.5rem);
   color:#5b2607;
   margin-bottom:15px;
@@ -1435,7 +1453,9 @@ to {
   font-size:1.2rem;
   color:#fff}
 .address-content h3 {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   color:#5b2607;
   margin-bottom:8px;
   font-size:1.15rem}
@@ -1461,7 +1481,9 @@ to {
   border-radius:999px;
   background:linear-gradient(180deg,#7a2f0c,#5b2607);
   color:#f6d58a;
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1.2rem;
   border:2px solid rgba(255,215,120,.3);
   box-shadow:0 12px 30px #0000002e;
@@ -1492,7 +1514,9 @@ to {
 .location-details {
   padding:30px 20px 40px}
 .location-details h3 {
-  font-family:Yatra One,cursive;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:2.2rem;
   color:#f6d58a;
   margin-bottom:25px;
@@ -1507,7 +1531,9 @@ to {
   display:inline-block;
   background:linear-gradient(180deg,#fad689,#d4a759);
   color:#4a1b05;
-  font-family:Yatra One,cursive;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1.3rem;
   padding:14px 45px;
   border-radius:999px;
@@ -1555,7 +1581,9 @@ to {
   margin:auto auto 20px;
   display:block}
 .ashirwad-heading {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(2.8rem,9vw,4rem);
   color:#f6d58a;
   text-shadow:0 0 18px rgba(255,215,120,.35);
@@ -1667,7 +1695,9 @@ to {
   border-radius:999px;
   background:linear-gradient(180deg,#7a2f0c,#4b1c05);
   color:#f6d58a;
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1.2rem;
   border:2px solid rgba(255,215,120,.3);
   box-shadow:0 0 30px #ffb43240,inset 0 0 12px #ffd77833;
@@ -1726,7 +1756,9 @@ to {
   display:block;
   margin:0 auto 25px}
 .gallery-heading {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(2.5rem,9vw,4rem);
   color:#5b2607;
   text-align:center;
@@ -1823,7 +1855,9 @@ to {
   width:110px;
   margin-bottom:35px}
 .footer-quote {
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(2rem,8vw,3rem);
   line-height:1.65;
   color:#5b2607;
@@ -1842,7 +1876,9 @@ to {
   justify-content:center;
   align-items:center;
   gap:14px;
-  font-family:Yatra One;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:1.25rem;
   color:#5b2607;
   margin-bottom:55px}
@@ -1855,7 +1891,9 @@ to {
   opacity:1!important}
 .footer-chant {
   color:#5b2607;
-  font-family:'Yatra One','Noto Serif Devanagari',serif;
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
   font-size:clamp(1.1rem, 3.5vw, 1.4rem);
   font-weight:600;
   letter-spacing:1.5px;
