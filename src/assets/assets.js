@@ -38,7 +38,7 @@ import pillar from './piller-pvoq_vZm.webp';
 import pot from './pot-GXE75GD9.webp';
 import shankh from './shankh-KSZvp6xx.webp';
 import topLayer from './top-layer-BdL4xo3x.webp';
-import bgMusic from './bgMusic-Cx9Z66jg.mp3';
+import bgMusic from './bgMusic.mp3';
 
 export const assetMap = {
   mandala,
