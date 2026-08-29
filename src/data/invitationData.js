@@ -44,25 +44,36 @@ export const invitationData = {
     },
     familyMembers: [
       {
-        id: "family-member-1",
+        id: "family-cover",
         name: "",
         relation: "",
         image: "family1",
+        layout: "landscape",
         displayOrder: 1
+      },
+      {
+        id: "family-member-1",
+        name: "",
+        relation: "",
+        image: "family2",
+        layout: "portrait",
+        displayOrder: 2
       },
       {
         id: "family-member-2",
         name: "",
         relation: "",
-        image: "family2",
-        displayOrder: 2
+        image: "family3",
+        layout: "portrait",
+        displayOrder: 3
       },
       {
         id: "family-member-3",
         name: "",
         relation: "",
-        image: "family3",
-        displayOrder: 3
+        image: "family4",
+        layout: "portrait",
+        displayOrder: 4
       }
     ]
   },

@@ -17,7 +17,7 @@ import gallery5 from './gallery-5.jpg';
 import family1 from './family-1.jpg';
 import family2 from './family-2.jpg';
 import family3 from './family-3.jpg';
-import family4 from './family-4-5BwO33AK.webp';
+import family4 from './family-4.jpg';
 import flower1 from './flower1-BlVhglJb.webp';
 import flower2 from './flower2-579OHsCI.webp';
 import flower3 from './flower3-DVMPDr3s.webp';

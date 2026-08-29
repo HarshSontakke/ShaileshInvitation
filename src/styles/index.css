@@ -778,6 +778,11 @@ to {
 .family-card.next {
   transform:translate(35%) scale(.88) rotate(12deg);
   opacity:.4}
+.family-card.landscape {
+  width:88vw;
+  max-width:390px}
+.family-card.landscape .member-img {
+  aspect-ratio:1.25}
 .member-img {
   width:100%;
   aspect-ratio:3/4;

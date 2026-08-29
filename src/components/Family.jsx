@@ -106,7 +106,7 @@ export function Family() {
         >
           {members.map((member, index) => {
             const cardState = getCardClass(index);
-            const cardClassName = `family-card${cardState ? ` ${cardState}` : ''}`;
+            const cardClassName = `family-card ${member.layout || 'portrait'}${cardState ? ` ${cardState}` : ''}`;
 
             return (
               <div className={cardClassName} key={member.id}>
