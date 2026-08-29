@@ -9,7 +9,7 @@ import eventAtharvshish from './atharvshish-opt-BokKd3D3.webp';
 import eventSnehbhet from './snehbhet-opt-CGz7vv-w.webp';
 import eventMahaprasad from './mahaprasad-opt-B_Zc2sef.webp';
 import eventVisarjan from './visarjan-opt-Epp4xHxG.webp';
-import gallery1 from './gallery-1.png';
+import gallery1 from './gallery-1.jpg';
 import gallery2 from './gallery-2.jpg';
 import gallery3 from './gallery-3.jpg';
 import gallery4 from './gallery-4.jpg';
