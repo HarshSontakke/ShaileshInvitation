@@ -94,7 +94,7 @@ export const invitationData = {
         label: "स्थापना",
         date: "13 सप्टेंबर 2026",
         time: "सकाळी 7:30 वाजता",
-        location: "श्री सिद्धिविनायक मंदिर",
+        location: "रूम नं -184/09 पुष्पविहार कॉलनी",
         description: "गणरायाचे मंगल आगमन आणि मूर्ती स्थापना सोहळा.",
         image: "eventSthapana",
         side: "left"
