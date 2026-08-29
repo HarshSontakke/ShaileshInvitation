@@ -122,28 +122,6 @@ export const invitationData = {
         side: "left"
       },
       {
-        id: "satyanarayan-pooja",
-        title: "सत्यनारायण पूजा",
-        label: "सत्यनारायण पूजा",
-        date: "३० ऑगस्ट २०२६",
-        time: "सकाळी १०:३० वाजता",
-        location: "मुख्य सभागृह",
-        description: "श्री सत्यनारायण महापूजा व महाप्रसाद.",
-        image: "eventAtharvshish",
-        side: "right"
-      },
-      {
-        id: "mahaprasad",
-        title: "महाप्रसाद",
-        label: "महाप्रसाद",
-        date: "30 ऑगस्ट",
-        time: "रात्री 8:30 वाजता",
-        location: "प्रसाद विभाग",
-        description: "महाप्रसादाचा आनंद घ्या.",
-        image: "eventMahaprasad",
-        side: "left"
-      },
-      {
         id: "sanskritik-karyakram",
         title: "सांस्कृतिक कार्यक्रम",
         label: "कार्यक्रम",
