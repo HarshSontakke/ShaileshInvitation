@@ -52,18 +52,18 @@ export const invitationData = {
         displayOrder: 1
       },
       {
-        id: "family-member-2",
-        name: "",
-        relation: "",
-        image: "family3",
-        layout: "portrait",
-        displayOrder: 2
-      },
-      {
         id: "family-member-3",
         name: "",
         relation: "",
         image: "family4",
+        layout: "portrait",
+        displayOrder: 2
+      },
+      {
+        id: "family-member-2",
+        name: "",
+        relation: "",
+        image: "family3",
         layout: "portrait",
         displayOrder: 3
       },
