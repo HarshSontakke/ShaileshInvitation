@@ -122,17 +122,6 @@ export const invitationData = {
         side: "left"
       },
       {
-        id: "sanskritik-karyakram",
-        title: "सांस्कृतिक कार्यक्रम",
-        label: "कार्यक्रम",
-        date: "31 ऑगस्ट",
-        time: "सायंकाळी 6:00 वाजता",
-        location: "सभागृह",
-        description: "भजन, कीर्तन व सांस्कृतिक कार्यक्रम.",
-        image: "eventSnehbhet",
-        side: "right"
-      },
-      {
         id: "visarjan",
         title: "विसर्जन",
         label: "विसर्जन",
@@ -141,7 +130,7 @@ export const invitationData = {
         location: "विसर्जन मिरवणूक",
         description: "गणरायाला निरोप देण्याचा मंगल क्षण.",
         image: "eventVisarjan",
-        side: "left"
+        side: "right"
       }
     ]
   },
