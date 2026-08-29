@@ -1740,65 +1740,177 @@ to {
   z-index:20;
   will-change:transform,opacity}
 .gallery-section {
-  padding:90px 20px;
-  background:linear-gradient(180deg,transparent 0%,rgba(231,201,150,.3) 100%);
-  position:relative;
-  z-index:3;
-  pointer-events:none;
-  opacity:.35}
+  padding: 90px 20px;
+  background: linear-gradient(180deg, transparent 0%, rgba(231, 201, 150, 0.3) 100%);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.gallery-section:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.06;
+  background-image: radial-gradient(#D8B17A 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+.gallery-divider {
+  width: 120px;
+  display: block;
+  margin: 0 auto 25px;
+}
+.gallery-heading {
+  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
+  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: clamp(2.2rem, 8vw, 3.5rem);
+  color: #5b2607;
+  text-align: center;
+  margin: 0 auto 18px;
+}
+.gallery-small-divider {
+  width: 90px;
+  display: block;
+  margin: 0 auto 22px;
+}
+.gallery-subtitle {
+  text-align: center;
+  color: #8b5a2b;
+  line-height: 2;
+  margin: 0 auto 45px;
+  font-size: 1rem;
+  max-width: 600px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  aspect-ratio: 0.85;
+  cursor: pointer;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+  border: 2px solid rgba(212, 175, 55, 0.25);
+  background: #f4dfbe;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.gallery-item:nth-child(2) {
+  transform: rotate(-2.5deg);
+}
+.gallery-item:nth-child(3) {
+  transform: rotate(2.5deg);
+}
+.gallery-item:nth-child(4) {
+  transform: rotate(2deg);
+}
+.gallery-item:nth-child(5) {
+  transform: rotate(-2deg);
+}
+.gallery-item.large {
+  grid-column: 1 / -1;
+  aspect-ratio: 1.45;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s ease;
+}
+.gallery-item:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 32px rgba(212, 175, 55, 0.3);
+  border-color: rgba(212, 175, 55, 0.6);
+}
+.gallery-item:hover img {
+  transform: scale(1.06);
+}
+.gallery-item:active {
+  transform: scale(0.97);
+}
+.sacred-footer {
+  position: relative;
+  overflow: hidden;
+  padding: 110px 25px 35px;
+  text-align: center;
+  background: linear-gradient(180deg, #f8efe300, #f7d68c 18%, #e5a84f 55%, #c7782c);
+}
+.footer-fade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(180deg, rgba(231, 201, 150, 0.6), transparent);
+  pointer-events: none;
+}
+.footer-diya-left {
+  position: absolute;
+  bottom: 17px;
+  left: -83px;
+  width: 170px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.35;
+}
+.footer-aarti-left {
+  position: absolute;
+  bottom: 14px;
+  left: 8px;
+  width: 120px;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0.35;
+}
 .footer-divider {
-  width:110px;
-  margin-bottom:35px}
+  width: 110px;
+  margin: 0 auto 35px;
+  display: block;
+}
 .footer-quote {
   font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
   font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
   -webkit-font-smoothing: antialiased;
-  font-size:clamp(2rem,8vw,3rem);
-  line-height:1.65;
-  color:#5b2607;
-  margin-bottom:30px;
-  text-shadow:0 2px 8px rgba(255,255,255,.15)}
+  font-size: clamp(1.8rem, 6vw, 2.6rem);
+  line-height: 1.65;
+  color: #5b2607;
+  margin: 0 auto 30px;
+  max-width: 700px;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(255, 255, 255, 0.15);
+}
 .footer-family {
-  color:#8b4a15;
-  font-size:1.2rem;
-  margin-bottom:40px;
-  letter-spacing:.5px;
-  text-align:end;
-  margin-right:23px;
-  font-weight:bolder}
-.footer-morya {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:14px;
-  font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
-  font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
-  -webkit-font-smoothing: antialiased;
-  font-size:1.25rem;
-  color:#5b2607;
-  margin-bottom:55px}
-.footer-brand {
-  color:#6c3413;
-  font-size:.92rem;
-  font-family:Poppins,sans-serif;
-  font-weight:600;
-  letter-spacing:2px;
-  opacity:1!important}
+  color: #8b4a15;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-weight: bolder;
+}
 .footer-chant {
-  color:#5b2607;
+  color: #5b2607;
   font-family: "Tiro Devanagari Marathi", "Rozha One", "Noto Serif Devanagari", serif;
   font-feature-settings: "liga" 1, "dlig" 1, "half" 1, "akhn" 1;
   -webkit-font-smoothing: antialiased;
-  font-size:clamp(1.1rem, 3.5vw, 1.4rem);
-  font-weight:600;
-  letter-spacing:1.5px;
-  margin-top:10px;
-  margin-bottom:15px;
-  text-shadow:0 1px 4px rgba(255,255,255,.3);
-  text-align:center}
+  font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
 .footer-transition {
-  height:100px;
-  background:linear-gradient(180deg,transparent,rgba(229,168,79,.18),rgba(229,168,79,.45))}
+  height: 100px;
+  background: linear-gradient(180deg, transparent, rgba(229, 168, 79, 0.18), rgba(229, 168, 79, 0.45));
+}
 @media(min-width:600px) {
   .pillar {
   height:75%}
