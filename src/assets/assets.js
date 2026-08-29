@@ -10,7 +10,7 @@ import eventSnehbhet from './snehbhet-opt-CGz7vv-w.webp';
 import eventMahaprasad from './mahaprasad-opt-B_Zc2sef.webp';
 import eventVisarjan from './visarjan-opt-Epp4xHxG.webp';
 import gallery1 from './gallery-1.png';
-import gallery2 from './gallery-2.png';
+import gallery2 from './gallery-2.jpg';
 import gallery3 from './gallery-3.jpg';
 import gallery4 from './gallery-4.jpg';
 import gallery5 from './gallery-5.jpg';
