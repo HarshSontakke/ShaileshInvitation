@@ -113,10 +113,10 @@ export const invitationData = {
       {
         id: "sandhyakal-aarti",
         title: "संध्याकाळची आरती",
-        label: "दीपआरती",
+        label: "दीपारती",
         date: "दररोज",
-        time: "संध्याकाळी 7:30 वाजता",
-        location: "मुख्य सभागृह",
+        time: "संध्याकाळी 8:00 वाजता",
+        location: "रूम नं -184/09 पुष्पविहार कॉलनी",
         description: "दीपप्रज्वलन व आरती सोहळा.",
         image: "eventAarti",
         side: "left"
