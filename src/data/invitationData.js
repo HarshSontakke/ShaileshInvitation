@@ -104,8 +104,8 @@ export const invitationData = {
         title: "सकाळची आरती",
         label: "आरती",
         date: "दररोज",
-        time: "सकाळी 8:00 वाजता",
-        location: "मुख्य सभागृह",
+        time: "सकाळी 10:00 वाजता",
+        location: "रूम नं -184/09 पुष्पविहार कॉलनी",
         description: "सकाळची मंगल आरती व प्रसाद.",
         image: "eventAarti",
         side: "right"
