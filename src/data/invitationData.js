@@ -44,20 +44,12 @@ export const invitationData = {
     },
     familyMembers: [
       {
-        id: "family-cover",
-        name: "",
-        relation: "",
-        image: "family1",
-        layout: "landscape",
-        displayOrder: 1
-      },
-      {
         id: "family-member-1",
         name: "",
         relation: "",
         image: "family2",
         layout: "portrait",
-        displayOrder: 2
+        displayOrder: 1
       },
       {
         id: "family-member-2",
@@ -65,7 +57,7 @@ export const invitationData = {
         relation: "",
         image: "family3",
         layout: "portrait",
-        displayOrder: 3
+        displayOrder: 2
       },
       {
         id: "family-member-3",
@@ -73,6 +65,14 @@ export const invitationData = {
         relation: "",
         image: "family4",
         layout: "portrait",
+        displayOrder: 3
+      },
+      {
+        id: "family-cover",
+        name: "",
+        relation: "",
+        image: "family1",
+        layout: "landscape",
         displayOrder: 4
       }
     ]
