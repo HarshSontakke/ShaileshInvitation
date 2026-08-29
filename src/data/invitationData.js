@@ -174,7 +174,7 @@ export const invitationData = {
     heading: "कार्यक्रम स्थळ",
     subtitle: "गणरायाच्या दर्शनासाठी आपले सहर्ष स्वागत आहे",
     address: "रूम नं -184/09 पुष्पविहार कॉलनी अंबावाडी एस.व्ही रोड सुधीर फडके ब्रिज जवळ दहिसर (पूर्व) मुंबई 400068",
-    googleMapsLink: "https://maps.google.com/?q=Pushpa+Vihar+Colony,+Ambawadi,+SV+Road,+near+Sudhir+Phadke+Flyover,+Dahisar+East,+Mumbai+400068",
+    googleMapsLink: "https://maps.app.goo.gl/p6Xx4xFBZ4eSESHo8?g_st=aw",
     googleMapsEmbed: "https://maps.google.com/maps?q=Pushpa+Vihar+Colony,+Ambawadi,+SV+Road,+near+Sudhir+Phadke+Flyover,+Dahisar+East,+Mumbai+400068&t=&z=15&ie=UTF8&iwloc=&output=embed",
     buttonText: "Open Maps",
     footerMessage: ["आपल्या सहकुटुंब उपस्थितीने", "उत्सवाची शोभा वाढेल"],
