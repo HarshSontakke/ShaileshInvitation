@@ -24,17 +24,18 @@
   box-shadow:inset 0 0 120px #5a320a14}
 .curtain-panel.panel-left {
   left:0;
-  background-color:#e7d2a5;
-  background-image:linear-gradient(to right,#a86b24,#bc8432 15%,#d2a45b 40%,#dfc286,#e7d2a5);
+  background-color:#d8a142;
+  background-image:linear-gradient(to right,#a8671b,#c38628 15%,#dba344 40%,#ecbc5e 70%,#f5ce7b 90%,#f9d687);
   background-size:100% 100%;
-  border-right:4px solid rgba(184,132,45,.5);
-  box-shadow:2px 0 30px #5a320a1a}
+  border-right:3.5px solid #a8671b;
+  box-shadow:inset 0 0 120px rgba(90,50,10,.18), 3px 0 25px rgba(90,50,10,.25)}
 .curtain-panel.panel-right {
   right:0;
-  background-color:#e7d2a5;
-  background-image:linear-gradient(to left,#a86b24,#bc8432 15%,#d2a45b 40%,#dfc286,#e7d2a5);
+  background-color:#d8a142;
+  background-image:linear-gradient(to left,#a8671b,#c38628 15%,#dba344 40%,#ecbc5e 70%,#f5ce7b 90%,#f9d687);
   background-size:100% 100%;
-  border-left:4px solid rgba(184,132,45,.5)}
+  border-left:3.5px solid #a8671b;
+  box-shadow:inset 0 0 120px rgba(90,50,10,.18), -3px 0 25px rgba(90,50,10,.25)}
 .curtain-panel:before {
   content:"";
   position:absolute;
@@ -50,9 +51,9 @@
   top:50%;
   width:clamp(450px,80vw,900px);
   height:auto;
-  opacity:.32;
+  opacity:.34;
   mix-blend-mode:multiply;
-  filter:drop-shadow(0px 1px .5px rgba(231,210,165,.6)) drop-shadow(0px -1px .5px rgba(168,107,36,.3));
+  filter:drop-shadow(0px 1px .5px rgba(249,214,135,.6)) drop-shadow(0px -1px .5px rgba(168,103,27,.35));
   pointer-events:none;
   z-index:2}
 .curtain-mandala--left {
@@ -63,17 +64,18 @@
   transform:translate(-50%,-50%)}
 .curtain-panel-decor {
   position:absolute;
-  top:6%;
-  bottom:6%;
+  top:0;
+  bottom:0;
   pointer-events:none;
-  width:1px;
-  background:#b8842d99;
+  width:1.5px;
+  background:#a8671b;
+  opacity:.65;
   z-index:3;
-  box-shadow:.5px 0 #e7d2a566,-.5px 0 #8a5a1833}
+  box-shadow:0.5px 0 0 rgba(255,235,175,.5),-0.5px 0 0 rgba(110,55,10,.3)}
 .curtain-panel.panel-left .curtain-panel-decor {
-  right:32px}
+  right:36px}
 .curtain-panel.panel-right .curtain-panel-decor {
-  left:32px}
+  left:36px}
 .curtain-decor-line,.curtain-decor-outer {
   display:none}
 .curtain-corner {
@@ -130,20 +132,20 @@
   justify-content:center}
 .curtain-seal {
   position:relative;
-  width:clamp(130px,36vw,160px);
-  height:clamp(130px,36vw,160px);
+  width:clamp(135px,38vw,165px);
+  height:clamp(135px,38vw,165px);
   border-radius:50%;
   border:none;
   cursor:pointer;
   z-index:2;
-  background:radial-gradient(ellipse at 40% 30%,#f3cf73,#d1a045,#8d5a18 80%,#6b4312);
-  box-shadow:0 15px 35px #3c1e0a59,0 5px 15px #3c1e0a40,0 0 0 1px #6b4312,inset 0 3px 6px #f3cf7399,inset 0 -6px 12px #6b4312cc;
-  color:#5b3512;
+  background:radial-gradient(circle at 40% 32%,#fff1b8 0%,#f6c860 30%,#d8962f 65%,#9b5a0e 100%);
+  box-shadow:0 16px 36px rgba(50,20,5,.45),0 6px 16px rgba(50,20,5,.3),inset 0 3px 6px rgba(255,255,255,.7),inset 0 -6px 12px rgba(90,45,10,.75);
+  color:#522706;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:4px;
+  gap:5px;
   animation:sealBreath 5s ease-in-out infinite;
   transition:transform .5s ease,box-shadow .5s ease;
   overflow:hidden;
@@ -164,11 +166,11 @@
   pointer-events:none}
 .curtain-seal-text-hi {
   font-family:Tiro Devanagari Marathi,"Noto Serif Devanagari",serif;
-  font-size:clamp(1.1rem,3.8vw,1.4rem);
+  font-size:clamp(1.05rem,3.6vw,1.35rem);
   font-weight:600;
   line-height:1.2;
-  color:#5b3512;
-  text-shadow:0 1px 1px rgba(243,207,115,.6),0 -.5px .5px rgba(0,0,0,.2);
+  color:#4a2104;
+  text-shadow:0 1px 1px rgba(255,240,185,.7),0 -.5px .5px rgba(0,0,0,.2);
   pointer-events:none;
   position:relative;
   z-index:2}
@@ -180,13 +182,13 @@
   z-index:2}
 .curtain-seal-text-en {
   font-family:Asar,serif;
-  font-size:clamp(.6rem,2.2vw,.75rem);
-  font-weight:500;
-  letter-spacing:2px;
+  font-size:clamp(.62rem,2.2vw,.76rem);
+  font-weight:600;
+  letter-spacing:2.2px;
   text-transform:uppercase;
-  color:#65401a;
-  text-shadow:0 1px 1px rgba(243,207,115,.5);
-  opacity:1;
+  color:#552b07;
+  text-shadow:0 1px 1px rgba(255,240,185,.6);
+  opacity:.95;
   pointer-events:none;
   position:relative;
   z-index:2}
@@ -242,18 +244,18 @@
   width:50px;
   height:50px;
   border-radius:50%;
-  background:#d8c5a6;
-  box-shadow:inset 0 0 0 1px #c8a855,inset 0 2px 4px #5b260714,0 2px 6px #5b26070f;
+  background:#663311;
+  box-shadow:inset 0 0 0 1.5px #c8a855,inset 0 2px 4px rgba(0,0,0,.25),0 3px 8px rgba(91,38,7,.25);
   transition:background .3s ease-in-out,box-shadow .3s ease-in-out,transform .1s ease-in-out}
 .music-toggle--on {
-  background:#6b3516;
-  box-shadow:inset 0 0 0 1px #c8a855,inset 0 2px 4px #00000026,0 2px 8px #6b351626}
+  background:#5a2408;
+  box-shadow:inset 0 0 0 1.5px #e6b35a,inset 0 2px 4px rgba(0,0,0,.35),0 3px 10px rgba(91,38,7,.35)}
 @media(hover:hover) {
   .music-toggle:hover {
   transform:translateY(-1px);
-  box-shadow:inset 0 0 0 1px #c8a855,inset 0 2px 4px #5b260714,0 4px 10px #5b26071f}
+  box-shadow:inset 0 0 0 1.5px #dfbe7e,inset 0 2px 4px rgba(0,0,0,.25),0 5px 12px rgba(91,38,7,.3)}
 .music-toggle--on:hover {
-  box-shadow:inset 0 0 0 1px #c8a855,inset 0 2px 4px #00000026,0 4px 10px #6b351638}
+  box-shadow:inset 0 0 0 1.5px #ffd48a,inset 0 2px 4px rgba(0,0,0,.35),0 5px 12px rgba(91,38,7,.4)}
 }
 .music-toggle:active {
   transform:scale(.96)}
@@ -266,13 +268,14 @@
   justify-content:center;
   pointer-events:none;
   font-size:22px;
-  color:#5b2607;
-  opacity:.6;
+  color:#dfb54b;
+  opacity:1;
+  text-shadow:0 0 8px rgba(223,181,75,.6);
   transition:opacity .25s ease-in-out,color .25s ease-in-out,text-shadow .3s ease-in-out}
 .music-toggle--on .music-toggle__icon {
-  color:#d4af37;
+  color:#ffd48a;
   opacity:1;
-  text-shadow:0 0 8px rgba(212,175,55,.5)}
+  text-shadow:0 0 10px rgba(255,212,138,.8)}
 @media screen and (min-width:768px) {
   .music-toggle {
   width:60px;
@@ -405,19 +408,19 @@ to {
 .scroll-reveal-child {
   transition-delay:calc(var(--reveal-index, 0) * 80ms)}
 :root {
-  --bg: #F4E3C1;
-  --brown: #5B2607;
-  --muted: #8C5A2B;
-  --temple-base: #F4E3C1;
-  --temple-cream: #EFD8AE;
-  --temple-dark-cream: #E7C996;
-  --temple-antique-gold: #DFC083}
+  --bg: #F8EADA;
+  --brown: #4A1804;
+  --muted: #783E18;
+  --temple-base: #F8EADA;
+  --temple-cream: #F4DFC0;
+  --temple-dark-cream: #ECD0A2;
+  --temple-antique-gold: #DFBD7A}
 * {
   margin:0;
   padding:0;
   box-sizing:border-box;
   -webkit-tap-highlight-color:transparent}
-body{font-family:"Noto Serif Devanagari",serif;background-color:var(--temple-base);background-image:radial-gradient(circle at center,rgba(239,216,174,.8),transparent 80%),linear-gradient(180deg,var(--temple-base) 0%,var(--temple-cream) 40%,var(--temple-dark-cream) 100%);background-blend-mode:normal,normal;background-attachment:fixed;overflow-x:hidden;color:var(--brown)}
+body{font-family:"Noto Serif Devanagari",serif;background-color:var(--temple-base);background-image:radial-gradient(circle at center,rgba(244,223,192,.7),transparent 85%),linear-gradient(180deg,#F8EADA 0%,#F4DFC0 40%,#ECD0A2 100%);background-blend-mode:normal,normal;background-attachment:fixed;overflow-x:hidden;color:var(--brown)}
 :root {
   --family-bg-top:#A14F1B;
   --family-bg-mid:#7E350E;
@@ -438,9 +441,9 @@ body{font-family:"Noto Serif Devanagari",serif;background-color:var(--temple-bas
   content:"";
   position:absolute;
   inset:0;
-  opacity:.3;
-  background-image:radial-gradient(#8E603A 1px,transparent 1px);
-  background-size:30px 30px}
+  opacity:.26;
+  background-image:radial-gradient(#8E603A 1.1px,transparent 1.1px);
+  background-size:28px 28px}
 .music-toggle-wrapper {
   position:absolute;
   top:clamp(14px,4vw,24px);
@@ -510,15 +513,16 @@ body{font-family:"Noto Serif Devanagari",serif;background-color:var(--temple-bas
   font-size:clamp(12px,4vw,20px);
   color:var(--muted);
   margin-bottom:clamp(5px,1.5svh,15px);
-  font-weight:700}
+  font-weight:700;
+  letter-spacing:0.5px}
 .title {
   font-family:Yatra One,serif;
   font-size:clamp(40px,15.2vw,90px);
   line-height:1.1;
-  color:var(--primary-heading, var(--brown));
+  color:#4A1804;
   text-align:center;
   margin-bottom:clamp(5px,1.5svh,15px);
-  text-shadow:1px 1px 0px rgba(255,255,255,.5)}
+  text-shadow:0 1px 1px rgba(255,255,255,.6)}
 .subtitle {
   font-size:clamp(12px,4vw,20px);
   font-weight:700;

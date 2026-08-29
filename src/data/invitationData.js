@@ -185,10 +185,10 @@ export const invitationData = {
 
   // Blessings & Flower Shower Section
   blessings: {
-    heading: "बाप्पाचे आशीर्वाद",
+    heading: "बाप्पांचे आशीर्वाद",
     subtitle: "स्पर्श करा आणि बाप्पांचे मंगल आशीर्वाद प्राप्त करा",
-    note: "बाप्पांच्या चरणी भक्तीपूर्वक फुलांची अर्पण करा",
-    buttonText: "फुलांची वर्षाव करा",
+    note: "बाप्पांच्या चरणी भक्तीपूर्वक फुले अर्पण करा",
+    buttonText: "फुलांचा वर्षाव करा",
     assets: {
       divider: "divider1",
       murti: "murti2"

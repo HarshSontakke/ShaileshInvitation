@@ -115,9 +115,9 @@ export function Curtain({ onOpenStart, onComplete }) {
           className="curtain-seal"
           onClick={handleOpen}
           type="button"
-          aria-label="गणपती नमः - Tap To Open"
+          aria-label="श्री गणेशाय नमः - Tap To Open"
         >
-          <span className="curtain-seal-text-hi">गणपती नमः</span>
+          <span className="curtain-seal-text-hi">श्री गणेशाय नमः</span>
           <span className="curtain-seal-divider">
             <svg
               width="24"
