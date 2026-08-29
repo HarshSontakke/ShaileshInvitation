@@ -51,7 +51,7 @@ export function Location() {
         </div>
 
         <div className="location-details">
-          <h3>{venue}</h3>
+          {venue ? <h3>{venue}</h3> : null}
           <p className="address-text">{address}</p>
           <a
             className="new-maps-btn"

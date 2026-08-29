@@ -148,7 +148,7 @@ export const invitationData = {
 
   // Venue & Google Maps Location Section
   location: {
-    venue: "सोनटक्के निवास",
+    venue: "",
     heading: "कार्यक्रम स्थळ",
     subtitle: "गणरायाच्या दर्शनासाठी आपले सहर्ष स्वागत आहे",
     address: "रूम नं -184/09 पुष्पविहार कॉलनी अंबावाडी एस.व्ही रोड सुधीर फडके ब्रिज जवळ दहिसर (पूर्व) मुंबई 400068",
